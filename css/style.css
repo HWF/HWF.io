@@ -116,9 +116,9 @@ td { vertical-align: top; }
 }
 
 body{
-	background: url(img/bg.png);
 	margin: 0px auto;
 	width:500px;
+	min-height:500px;
 	padding-top:50px;
 }
 
@@ -129,9 +129,8 @@ body{
 }
 
 footer{
-	position:absolute;
 	font: 20px "Times New Roman", Times, serif;
-	bottom: 0px;
+	margin-top:50px;
 	width:500px;
 	opacity: 0.8;
 }
